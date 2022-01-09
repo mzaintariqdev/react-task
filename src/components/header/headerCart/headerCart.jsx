@@ -1,7 +1,13 @@
 import React, { Component } from "react";
+import { ReactComponent as EmptyCartIcon } from "../../../assets/icons/EmptyCart.svg";
 
-export default class headerCart extends Component {
+export default class HeaderCart extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div>
+        {" "}
+        <EmptyCartIcon />
+      </div>
+    );
   }
 }
